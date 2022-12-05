@@ -1,3 +1,3 @@
-# My-Financial-Website
+# Team Blogger Website
 
-Website talking about financial stuff
+Team Blogger website for MotionLink.

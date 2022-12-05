@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "https://financesimplifyd.netlify.app/"
+baseURL = "https://team-blogger-template.netlify.app/"
 languageCode = "en-us"
-title = "SimplifydFinance"
+title = "Team Blogger"
 theme = "liva-hugo"
 summaryLength = "10"
 paginate = 6
@@ -81,8 +81,8 @@ disqusShortname = ""
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "Website about finance stuff"
-author = "The SimplifydFinance team"
+description = "Blog website"
+author = ""
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 # Contact Information
@@ -90,7 +90,8 @@ googleAnalitycsID = "Your ID"
 email = "{{{otherData.email}}}"
 # location = "Dhaka, Bangladedsh"
 # copyright
-copyright = "| copyright &copy; {{{otherData.currentYear}}} [SimplifydFinance](https://financesimplifyd.netlify.app/) All Rights Reserved |"
+# copyright = "| copyright &copy; {{{otherData.currentYear}}} [SimplifydFinance](https://team-blogger-template.netlify.app/) All Rights Reserved |"
+copyright = ""
 
   # Preloader
   [params.preloader]

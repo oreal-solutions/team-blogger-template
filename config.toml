@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "https://financesimplifyd.netlify.app/"
+baseURL = "https://team-blogger-template.netlify.app/"
 languageCode = "en-us"
-title = "SimplifydFinance"
+title = "Team Blogger"
 theme = "liva-hugo"
 summaryLength = "10"
 paginate = 6
@@ -81,16 +81,17 @@ disqusShortname = ""
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "Website about finance stuff"
-author = "The SimplifydFinance team"
+description = "Blog website"
+author = ""
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 # Contact Information
 # mobile = "0124857985320"
-email = "us@example.com"
+email = "hi@example.com"
 # location = "Dhaka, Bangladedsh"
 # copyright
-copyright = "| copyright &copy; 2022 [SimplifydFinance](https://financesimplifyd.netlify.app/) All Rights Reserved |"
+# copyright = "| copyright &copy; 2022 [SimplifydFinance](https://team-blogger-template.netlify.app/) All Rights Reserved |"
+copyright = ""
 
   # Preloader
   [params.preloader]
@@ -118,19 +119,19 @@ expire_days = 2
 [[params.social]]
 title = "facebook"
 icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "https://twitter.com/orealmotionlink"
+link = "https://www.example.com"
 
 [[params.social]]
 title = "twitter"
 icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "https://twitter.com/orealmotionlink"
+link = "https://www.example.com"
 
 [[params.social]]
 title = "instagram"
 icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-link = "https://twitter.com/orealmotionlink"
+link = "https://www.example.com"
 
 [[params.social]]
 title = "linkedin"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "https://twitter.com/orealmotionlink"
+link = "https://www.example.com"

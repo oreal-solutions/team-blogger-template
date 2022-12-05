@@ -21,7 +21,7 @@ yarn-error.log*
 
 /public
 
-/static/images/*
+/static/images/images/*
 /static/about/images/*
 /content/blog/*
 /content/about/*

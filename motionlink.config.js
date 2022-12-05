@@ -43,6 +43,12 @@ const rules = [
       database: "articles",
       fetchBlocks: true,
       filter: allFilter,
+      sort: [
+        {
+          timestamp: "created_time",
+          direction: "descending",
+        },
+      ],
       map: (page, context) => {
         page._title = `post-${getNextPostIndex()}`;
         page.otherData.date = page.data.last_edited_time;
