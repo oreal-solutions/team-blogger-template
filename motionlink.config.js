@@ -250,6 +250,7 @@ const rules = [
       filter: allFilter,
       map: (page, _) => {
         page._title = "config";
+        page.otherData.NETLIFY_SITE_URL = process.env.NETLIFY_SITE_URL;
         page.otherData.currentYear = new Date().getFullYear();
 
         if (page.data.properties.Email.type === "rich_text") {

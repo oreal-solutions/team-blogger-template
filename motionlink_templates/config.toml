@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://team-blogger-template.netlify.app/"
+baseURL = "{{{otherData.NETLIFY_SITE_URL}}}/"
 languageCode = "en-us"
 title = "Team Blogger"
 theme = "liva-hugo"
