@@ -1,6 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+require("dotenv").config();
+
 const markdownService = require("motionlink-cli/lib/services/markdown_service");
 const ObjectTransformers = markdownService.ObjectTransformers;
 const BlockTransformers = markdownService.BlockTransformers;

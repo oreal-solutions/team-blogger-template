@@ -14,6 +14,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - run: |
+          touch .env
+          echo NETLIFY_SITE_URL=${{ secrets.NETLIFY_SITE_URL }} >> .env      
       - run: npm ci && npx motionlink ${{ secrets.MOTION_LINK_VARS }}
       - uses: peaceiris/actions-hugo@v2
         with:
