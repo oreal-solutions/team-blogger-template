@@ -8,4 +8,4 @@ The Notion template for this website is available [here](https://oreal-motionlin
 
 ## Installation instructions
 
-Instructions on how to install a Motionlink website can be found [here](https://motionlink.lytowl.com/docs/Installing%20websites).
+Instructions on how to install a Motionlink website can be found [here](https://motionlink.co/docs/Installing%20websites).
